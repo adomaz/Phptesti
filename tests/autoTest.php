@@ -23,4 +23,8 @@ class autoTest extends PHPUNIT_Framework_testcase {
         $this->autoInstance->Accelerate();
         $this->assertEquals(10, $this->autoInstance->getSpeed());
     }
+    public function testIfGoesNegative(){
+        $this->autoInstance->Slowdown();
+        $this->assertGreaterThanOrEqual(0, $this->autoInstance->getSpeed());
+    }
 }
