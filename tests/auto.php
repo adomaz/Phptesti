@@ -30,6 +30,11 @@ class auto {
         $this->speed = $this->speed + 10;
     }
     public function Slowdown(){
+        if($this->speed - 10 < 0){
+            $this->speed = 0;
+        }
+        else{
         $this->speed = $this->speed - 10;
+        }
     }
 }
