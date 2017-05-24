@@ -11,13 +11,13 @@
  *
  * @author root
  */
-require 'Auto.php';
+require 'auto.php';
 class autoTest extends PHPUNIT_Framework_testcase {
     public $autoInstance;
     //put your code here
     
     public function setUp(){
-        $this->autoInstance = new Auto();
+        $this->autoInstance = new auto();
 }
     public function testIfAccelerates(){
         $this->autoInstance->Accelerate();
