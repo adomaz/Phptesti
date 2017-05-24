@@ -21,6 +21,6 @@ class autoTest extends PHPUNIT_Framework_testcase {
 }
     public function testIfAccelerates(){
         $this->autoInstance->Accelerate();
-        assert(10, $this->autoInstance->getSpeed());
+        $this->assertEquals(10, $this->autoInstance->getSpeed());
     }
 }

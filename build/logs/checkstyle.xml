@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="2.6.0">
+<file name="/var/www/html/gittesti/src/Auto.php">
+ <error line="14" column="1" severity="error" message="Each class must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+ <error line="14" column="12" severity="error" message="Opening brace of a class must be on the line after the definition" source="PSR2.Classes.ClassDeclaration.OpenBraceNewLine"/>
+ <error line="19" column="32" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="20" column="5" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 4" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="22" column="39" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="25" column="32" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="29" column="12" severity="error" message="Method name &quot;Auto::Accelerate&quot; is not in camel caps format" source="PSR1.Methods.CamelCapsMethodName.NotCamelCaps"/>
+ <error line="29" column="33" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="32" column="12" severity="error" message="Method name &quot;Auto::Slowdown&quot; is not in camel caps format" source="PSR1.Methods.CamelCapsMethodName.NotCamelCaps"/>
+ <error line="32" column="31" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+</file>
+</checkstyle>
+
