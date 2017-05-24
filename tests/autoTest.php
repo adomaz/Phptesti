@@ -27,4 +27,13 @@ class autoTest extends PHPUNIT_Framework_testcase {
         $this->autoInstance->Slowdown();
         $this->assertGreaterThanOrEqual(0, $this->autoInstance->getSpeed());
     }
+    public function testIfMaxSpeedWorks() {
+        $this->autoInstance->PedalToTheMetal();
+        $this->assertEquals($this->autoInstance->getMaxSpeed(), $this->autoInstance->getSpeed());
+    }
+    public function testIfGoesOverMaxSpeed(){
+        $this->autoInstance->PedalToTheMetal();
+        $this->autoInstance->Accelerate();
+        $this->assertLessThanOrEqual($this->autoInstance->getMaxSpeed(), $this->autoInstance->getSpeed());
+    }
 }
