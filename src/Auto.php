@@ -32,4 +32,4 @@ class Auto {
     public function Slowdown(){
         $this->speed = $this->speed - 10;
     }
-}
+
