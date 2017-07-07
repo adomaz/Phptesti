@@ -33,3 +33,4 @@ class Auto {
         $this->speed = $this->speed - 10;
     }
 
+}
